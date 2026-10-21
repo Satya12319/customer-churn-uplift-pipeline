@@ -32,6 +32,11 @@ Instead of predicting **risk**, Uplift Modeling predicts **persuadability** — 
 - **📉 Budget Optimization:** Reduced simulated marketing outreach waste by **30%** by eliminating spend on *Sure Things* and *Sleeping Dogs*.
 - **📈 Interactive Power BI Dashboard:** Built dynamic DAX calculated measures and quadrant slicers plotting **Uplift Score vs. Baseline Retention Probability**.
 
+
+https://github.com/user-attachments/assets/2c48237c-a5c0-4e10-973a-a5f8c9556c14
+
+
+
 ## 🛠️ Tech Stack & Tools
 
 - **Machine Learning & Modeling:** Python, Scikit-learn, Causal Inference / Uplift Modeling
