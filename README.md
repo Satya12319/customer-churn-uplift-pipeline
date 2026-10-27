@@ -35,7 +35,14 @@ Instead of predicting **risk**, Uplift Modeling predicts **persuadability** — 
 
 https://github.com/user-attachments/assets/2c48237c-a5c0-4e10-973a-a5f8c9556c14
 
+## 📈 Model Validation & MLOps Automation
 
+Unlike standard classification models evaluated with ROC-AUC, Causal Uplift models must be evaluated on incremental treatment effect because a single customer cannot be observed in both Treated and Control states simultaneously.
+
+* **Stratified Out-of-Sample Holdout:** Evaluated on a 20% holdout split stratified across treatment assignment and retention outcome ($T \times Y$).
+* **Qini Coefficient & AUUC:** Computes the **Area Under the Uplift Curve (AUUC)** and normalized **Qini Coefficient** (`model_metrics.json`) to verify that ranking customers by predicted uplift outperforms random targeting.
+* **Uplift @ Top 20%:** Measures net incremental retention gain in the top two deciles of targeted Persuadables.
+* **Automated CI/CD Orchestration:** Scheduled via **GitHub Actions** (`daily_uplift.yml`) to execute daily at `00:00 UTC`, validate out-of-sample Qini metrics, and commit updated customer scores (`scored_customers.csv`) directly to the repository for Power BI ingestion.
 
 ## 🛠️ Tech Stack & Tools
 
