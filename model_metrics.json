@@ -1,0 +1,8 @@
+{
+    "qini_coefficient": -0.3342,
+    "auuc_score": 23.6352,
+    "uplift_at_top_20_pct": 0.3794,
+    "total_customers_scored": 5000,
+    "target_persuadables_count": 1706,
+    "sleeping_dogs_count": 2140
+}

@@ -1,0 +1,9 @@
+# Python Virtual Environments & Caches
+.venv/
+uplift_pipeline/venv/
+__pycache__/
+*.pyc
+
+# OS Files
+.DS_Store
+Thumbs.db
