@@ -1,9 +1,9 @@
 {
-    "qini_coefficient": 0.193,
-    "auuc_score": 26.4493,
-    "uplift_at_top_20_pct": 0.2487,
+    "qini_coefficient": 0.1958,
+    "auuc_score": 26.8408,
+    "uplift_at_top_20_pct": 0.2907,
     "total_customers_scored": 5000,
-    "target_persuadables_count": 1796,
-    "sleeping_dogs_count": 1972,
-    "estimated_net_annual_roi_usd": 428140.78
+    "target_persuadables_count": 1768,
+    "sleeping_dogs_count": 1978,
+    "estimated_net_annual_roi_usd": 423958.22
 }
